@@ -1,0 +1,57 @@
+footer {
+  background-color: #eee;
+  position: relative;
+  bottom: 0;
+}
+
+footer .nav-logo {
+  align-items: flex-start;
+}
+
+footer h4 {
+  font-weight: bold;
+}
+
+footer .linkT {
+  color: var(--main-color);
+}
+
+footer .link,
+footer .linkT {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer svg {
+  margin-right: 5px;
+}
+
+footer .link:hover,
+footer .link.active {
+  color: var(--main-color) !important;
+}
+
+footer .linkT:hover,
+footer .linkT.active {
+  color: var(--dark-color) !important;
+}
+
+footer .icon {
+  font-size: 22px;
+}
+
+footer .fac:hover {
+  color: blue;
+}
+
+footer .what:hover {
+  color: green;
+}
+
+footer .yout:hover {
+  color: red;
+}
+
+footer .inst:hover {
+  color: rgb(195, 75, 179);
+}

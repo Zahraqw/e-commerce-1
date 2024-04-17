@@ -1,0 +1,14 @@
+
+.bread-item::after {
+content: ">" !important;
+color: black;
+margin: 0 4px;
+}
+.bread-item{
+color: blue !important;
+font-weight: bold;
+
+}
+.bread-item:hover{
+  color: var(--main-color) !important;
+}

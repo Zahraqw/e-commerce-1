@@ -1,0 +1,258 @@
+/* start product-detail page */
+.relatedProduct .ElasticCarousel h2 {
+  display: none;
+}
+
+.relatedProduct .ElasticCarousel {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.product-detail .description li {
+  list-style: decimal;
+  margin-left: 30px;
+}
+
+.product-detail .description a {
+  color: var(--main-color) !important;
+  font-size: large;
+}
+
+.product-detail .description a:hover {
+  color: var(--dark-color) !important;
+}
+
+/* end product-detail page */
+/* start products page */
+.products {
+  margin-top: 30px;
+}
+
+.products-page {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.products .coll {
+  border: 1px solid #dee2e6;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.products h3 {
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--orange-color)
+}
+
+.products li {
+  cursor: pointer;
+}
+
+.products .cat:hover {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.products label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+  margin-left: 0.5rem;
+}
+
+.products label input {
+  margin-right: 0.25rem;
+}
+
+.products #dropdown-item-button {
+  font-weight: bold;
+  background-color: #777;
+  border-radius: 0;
+  border: 0;
+
+}
+
+.products .dropdown-menu {
+  /* width: 100%; */
+  border-radius: 0;
+  border: 2px solid #000;
+  background-color: #eee;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.categories-list {
+  width: 200px;
+}
+
+/* end products page */
+
+
+/* start about page */
+.about {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.about img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80vw;
+  width: 500px;
+  height: auto;
+  border: 10px solid var(--dark-color);
+}
+
+/* end about page */
+
+/* start contact */
+.contact {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.contact .icon {
+  color: var(--main-color);
+}
+
+.contact iframe {
+  width: 100%;
+  height: 300px;
+  border: 2px solid var(--dark-color);
+}
+
+.contact iframe:hover {
+  border: 2px solid var(--main-color);
+}
+
+.contact .link:hover {
+  color: var(--main-color) !important;
+}
+
+/* end contact */
+/* Start Cart Page */
+.cart {
+  background-color: #fff;
+}
+
+.cart-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart .cart-info {
+  border: 1px solid var(--second-color);
+  text-align: center;
+  margin-bottom: 3rem;
+  overflow-x: auto;
+  background-color: #eeeeee40;
+}
+
+
+.quantity-group {
+  width: 90px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px 3px;
+}
+
+.cart .btn-control {
+  padding: 3px;
+}
+
+
+/* End Cart Page */
+/* MyCartImage */
+/* .myCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  } */
+.myCart .down {
+  margin-top: 30px;
+}
+
+.myCart .down a {
+  font-size: larger;
+  text-decoration: underline;
+  color: blue;
+}
+
+.myCart img {
+  height: unset !important;
+}
+
+/* start error404 */
+.errorCont {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  padding: 30px;
+  text-align: center;
+  max-width: 820px;
+  background-color: var(--second-color);
+  border-radius: 20px;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.error .alert {
+  color: var(--main-color);
+  font-size: 60px;
+}
+
+.error h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.error .btn {
+  font-weight: bold;
+  background-color: var(--main-color);
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.error p {
+  color: #777;
+}
+
+.error .btn:hover {
+  color: white;
+  background-color: #777;
+}
+
+/* end   error404 */
+
+/* Small */
+@media (max-width: 768px) {
+  .products .filter {
+    display: none;
+  }
+}

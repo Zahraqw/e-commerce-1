@@ -1,0 +1,163 @@
+.product-card {
+  box-shadow: 0 2px 7px #dfdfdf;
+  /* min-width: 200px; */
+}
+
+.product-card .border-right {
+  border-right: 1px solid #DEE2E6 !important;
+
+}
+
+.product-name {
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.price-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.original-price {
+  color: var(--main-color);
+}
+
+.discount-price {
+  color: #d3d3d3;
+  text-decoration: line-through;
+}
+
+.product-image {
+  cursor: pointer;
+  position: relative;
+}
+
+.icon-card {
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-card .tex {
+  display: none;
+  font-size: 12px;
+  color: var(--main-color);
+  padding: 0;
+  margin: 0;
+}
+
+.icon-card:hover .tex {
+  display: block;
+}
+
+.icon-card:hover .ic {
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+
+
+.product-card .heart:hover {
+  color: #b71540 !important;
+}
+
+.product-image .labels {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: -15px;
+  top: 15px;
+  gap: 5px;
+}
+
+.product-image .label {
+  color: #fff;
+  font-size: 13px;
+  padding: 2px 6px 2px 18px;
+  border-radius: 1px 3px 3px 1px;
+  text-transform: uppercase;
+  position: relative;
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 0 50%);
+}
+
+.product-image .label:before {
+  content: "";
+  background: #fff;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  left: 7px;
+}
+
+.sale {
+  background: #b71540;
+}
+
+.new {
+  background: rgb(139, 139, 253);
+}
+
+.retired {
+  background: #777;
+}
+
+.restricted {
+  background: #777;
+}
+
+.oos {
+  background: #5f9ea0;
+  ;
+}
+
+.product-card .salePrice {
+  margin-right: 20px;
+  color: gray;
+}
+
+.product-card .state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #777;
+}
+
+.product-card .stock {
+  cursor: pointer;
+}
+
+.product-state .modal-dialog {
+  width: 716px !important;
+  max-width: unset !important;
+}
+
+img.quantity {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.product-card .mod li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  position: relative;
+}
+
+.counterDown {
+  background-color: #fff;
+  padding-right: 5px;
+  position: absolute;
+  left: 10px;
+  border: 1px solid #000;
+}

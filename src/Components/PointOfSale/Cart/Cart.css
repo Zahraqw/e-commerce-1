@@ -1,0 +1,47 @@
+.Cart table {
+  width: 100%;
+}
+
+
+
+.Cart table td,
+.Cart table th {
+  padding: 0.25rem;
+  border: 1px solid #a1c54240;
+  vertical-align: middle;
+}
+
+.Cart table th {
+  padding: .75rem;
+}
+
+.Cart table thead {
+  background-color: #a1c54240;
+  color: #1c1c1c;
+}
+
+.Cart .order-price {
+  width: 60px;
+  text-align: center;
+  display: unset;
+}
+
+.Cart .cartQun {
+  width: 80px;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 3px
+}
+
+.Cart .cartQun .coun {
+  background-color: #a9cf4a;
+  color: #fff;
+  border: none;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.Cart .order p {
+  font-weight: bold;
+  color: #000;
+}

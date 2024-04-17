@@ -1,0 +1,87 @@
+/* start logIn */
+.loginCont .mod-footer{
+  font-size: 14px;
+}
+ .loginCont .lin {
+  color: var(--main-color) !important;
+  text-decoration: none;
+}
+
+.loginCont .lin:hover {
+  color: var(--main-color);
+  font-weight: bold;
+} 
+
+.loginCont .logo-login img {
+  width: 115px;
+  height: 115px;
+  padding: 10px;
+  position: absolute;
+  top: -57px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  background-color: #eaeaea;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+}
+
+.loginCont  h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: var(--main-color);
+  position: relative;
+  margin: 20px 0 10px;
+
+}
+
+.loginCont  h2::after {
+  content: "";
+  height: 4px;
+  width: 30px;
+  background-color: var(--main-color);
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 3px;
+}
+
+.loginCont form .input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginCont form .input-group .input-field {
+  background-color: #eaeaea;
+  color: #777;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}
+.reg{
+  font-size: 16px;
+}
+
+.loginCont .input-field input {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  padding: 5px 15px;
+}
+
+#toggle-password{
+  cursor: pointer;
+}
+/* end logIn */

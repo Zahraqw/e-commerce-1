@@ -1,0 +1,42 @@
+{
+  "workbench.colorTheme": "Default Dark Modern",
+  "window.zoomLevel": 0.5,
+  "workbench.iconTheme": "material-icon-theme",
+  "git.autofetch": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#B48EAD",
+    "editorBracketHighlight.foreground2": "#A3BE8C",
+    "editorBracketHighlight.foreground3": "#EBCB8B",
+    "editorBracketHighlight.foreground6": "#abb2c0",
+  },
+  "editor.minimap.enabled": false,
+  "files.autoSave": "onFocusChange",
+  "git.confirmSync": false,
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "intelephense.diagnostics.undefinedMethods": false,
+  "intelephense.diagnostics.undefinedConstants": false,
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": false,
+  "dart.flutterAdditionalArgs": [
+    "--no-sound-null-safety"
+  ],
+  "dart.flutterAttachAdditionalArgs": [
+    "--no-sound-null-safety"
+  ],
+  "dart.flutterRunAdditionalArgs": [
+    "--no-sound-null-safety"
+  ],
+  "dart.flutterTestAdditionalArgs": [
+    "--no-sound-null-safety"
+  ],
+  "cSpell.words": [
+    "Availabe"
+  ]
+}
